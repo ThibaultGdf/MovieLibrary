@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D91F2B682B99BEF3000C034F /* CoreDataProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91F2B672B99BEF3000C034F /* CoreDataProjectApp.swift */; };
+		D91F2B682B99BEF3000C034F /* MovieLibraryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91F2B672B99BEF3000C034F /* MovieLibraryApp.swift */; };
 		D91F2B6A2B99BEF3000C034F /* MovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91F2B692B99BEF3000C034F /* MovieView.swift */; };
 		D91F2B6C2B99BEF5000C034F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D91F2B6B2B99BEF5000C034F /* Assets.xcassets */; };
 		D91F2B6F2B99BEF5000C034F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D91F2B6E2B99BEF5000C034F /* Preview Assets.xcassets */; };
@@ -30,7 +30,7 @@
 
 /* Begin PBXFileReference section */
 		D91F2B642B99BEF3000C034F /* CoreDataProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D91F2B672B99BEF3000C034F /* CoreDataProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProjectApp.swift; sourceTree = "<group>"; };
+		D91F2B672B99BEF3000C034F /* MovieLibraryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieLibraryApp.swift; sourceTree = "<group>"; };
 		D91F2B692B99BEF3000C034F /* MovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieView.swift; sourceTree = "<group>"; };
 		D91F2B6B2B99BEF5000C034F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D91F2B6E2B99BEF5000C034F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 		D91F2B5B2B99BEF3000C034F = {
 			isa = PBXGroup;
 			children = (
-				D91F2B662B99BEF3000C034F /* CoreDataProject */,
+				D91F2B662B99BEF3000C034F /* MovieLibrary */,
 				D91F2B652B99BEF3000C034F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,7 +78,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D91F2B662B99BEF3000C034F /* CoreDataProject */ = {
+		D91F2B662B99BEF3000C034F /* MovieLibrary */ = {
 			isa = PBXGroup;
 			children = (
 				D91F2BA42B9B61F2000C034F /* Extensions */,
@@ -86,12 +86,12 @@
 				D91F2B7A2B99C75B000C034F /* Model */,
 				D91F2B822B99CF5D000C034F /* View */,
 				D91F2B9D2B9A14F5000C034F /* Repository */,
-				D91F2B672B99BEF3000C034F /* CoreDataProjectApp.swift */,
+				D91F2B672B99BEF3000C034F /* MovieLibraryApp.swift */,
 				D91F2B752B99BF4F000C034F /* MoviesDataModel.xcdatamodeld */,
 				D91F2B6B2B99BEF5000C034F /* Assets.xcassets */,
 				D91F2B6D2B99BEF5000C034F /* Preview Content */,
 			);
-			path = CoreDataProject;
+			path = MovieLibrary;
 			sourceTree = "<group>";
 		};
 		D91F2B6D2B99BEF5000C034F /* Preview Content */ = {
@@ -227,7 +227,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D91F2B5F2B99BEF3000C034F /* Build configuration list for PBXProject "CoreDataProject" */;
+			buildConfigurationList = D91F2B5F2B99BEF3000C034F /* Build configuration list for PBXProject "MovieLibrary" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -269,7 +269,7 @@
 				D91F2B8E2B99F57F000C034F /* CategoryType.swift in Sources */,
 				D91F2B772B99BF4F000C034F /* MoviesDataModel.xcdatamodeld in Sources */,
 				D91F2B792B99C712000C034F /* Movie.swift in Sources */,
-				D91F2B682B99BEF3000C034F /* CoreDataProjectApp.swift in Sources */,
+				D91F2B682B99BEF3000C034F /* MovieLibraryApp.swift in Sources */,
 				D91F2BA62B9B6208000C034F /* Date+String.swift in Sources */,
 				D91F2B952B9A08B8000C034F /* MovieDetailViewModel.swift in Sources */,
 				D91F2B982B9A0AAA000C034F /* EditMovieViewModel.swift in Sources */,
@@ -411,7 +411,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CoreDataProject/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MovieLibrary/Preview Content\"";
 				DEVELOPMENT_TEAM = MG8DTPV84D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -440,7 +440,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CoreDataProject/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MovieLibrary/Preview Content\"";
 				DEVELOPMENT_TEAM = MG8DTPV84D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -465,7 +465,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D91F2B5F2B99BEF3000C034F /* Build configuration list for PBXProject "CoreDataProject" */ = {
+		D91F2B5F2B99BEF3000C034F /* Build configuration list for PBXProject "MovieLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D91F2B702B99BEF5000C034F /* Debug */,

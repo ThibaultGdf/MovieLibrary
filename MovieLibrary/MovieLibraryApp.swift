@@ -1,5 +1,5 @@
 //
-//  CoreDataProjectApp.swift
+//  MovieLibraryApp.swift
 //  CoreDataProject
 //
 //  Created by Thibault GODEFROY on 07/03/2024.
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct CoreDataProjectApp: App {
+struct MovieLibraryApp: App {
     var body: some Scene {
         WindowGroup {
             MovieView()
