@@ -11,7 +11,8 @@ import SwiftUI
 struct CoreDataProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MovieView()
+				.environment(\.managedObjectContext, MoviesProvider.shared.viewContext)
         }
     }
 }
